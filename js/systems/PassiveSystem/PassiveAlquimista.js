@@ -806,7 +806,7 @@ export default class PassiveAlquimista {
       // Área de dano/debuff
       ws._createGroundEffect(
         px, py, chosen,
-        this.mainExplosionRadius * 0.35 * 2 ,
+        this.mainExplosionRadius * 0.35 * 2,
         { lifetime: 6000 }
       );
     }
